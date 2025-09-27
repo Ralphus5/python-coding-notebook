@@ -1,5 +1,23 @@
+# Virtual environments
 venv/
+.env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Project folders you don’t want
 space shooter/
 Vampire survivor/
-__pycache__/
-.ipynb_checkpoints/
+
+# VSCode configs
+.vscode/
+
