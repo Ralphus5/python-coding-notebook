@@ -1,23 +1,27 @@
-# Virtual environments
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environments ---
 venv/
 .env/
+*.egg-info/
 
-# Python caches
-__pycache__/
-*.pyc
-*.pyo
-
-# Jupyter notebooks
+# --- Jupyter ---
 .ipynb_checkpoints/
+*.ipynb_convert/
 
-# OS junk
+# --- VS Code ---
+.vscode/
+.vscode-server/
+
+# --- OS junk ---
 .DS_Store
 Thumbs.db
 
-# Project folders you don’t want
+# --- Project-specific (you asked for these) ---
 space shooter/
 Vampire survivor/
-
-# VSCode configs
-.vscode/
-
