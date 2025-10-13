@@ -1,2 +1,6 @@
 jupyter
 ipython
+pygame
+soundfile
+matplotlib
+seaborn
